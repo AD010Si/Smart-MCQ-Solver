@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+torch
+transformers
+sentence-transformers
+faiss-cpu
+rank-bm25
+chonkie
+accelerate
