@@ -17,7 +17,7 @@ A portfolio-ready version of my machine-learning competition project for ranking
 smart-mcq-solver/
 ├── README.md
 ├── requirements.txt
-└── smart_mcq_solver_portfolio.ipynb
+└── smart_mcq_solver.ipynb
 ```
 
 ## Notebook
