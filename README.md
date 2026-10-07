@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Smart MCQ Solver — Retrieval, Transformers & LLM Ranking
 
 A portfolio-ready version of my machine-learning competition project for ranking the three most likely answers to multiple-choice questions.
@@ -31,7 +30,7 @@ This is a research/portfolio project developed from a competition workflow. It i
 =======
 # Smart MCQ Solver: Retrieval, Transformers & LLM Ranking
 
-![tests](https://github.com/<your-username>/smart-mcq-solver/actions/workflows/ci.yml/badge.svg)
+![tests](https://github.com/AD010Si/smart-mcq-solver/actions/workflows/ci.yml/badge.svg)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 
 Rank the **top 3 most likely answers** for five-option multiple-choice questions (A–E), evaluated with **MAP@3**.
@@ -75,7 +74,7 @@ flowchart LR
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/smart-mcq-solver && cd smart-mcq-solver
+git clone https://github.com/AD010Si/smart-mcq-solver && cd smart-mcq-solver
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 # put train.csv / test.csv in data/  (see data/README.md)
@@ -118,4 +117,3 @@ Qwen without context (ablation) and with more retrieved chunks; multiple seeds w
 ## License
 
 MIT. The competition data is not redistributed.
->>>>>>> 1dce701 (new workflow)
