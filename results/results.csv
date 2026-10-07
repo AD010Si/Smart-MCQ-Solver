@@ -1,0 +1,9 @@
+model,MAP@3,Accuracy,Macro-F1
+Feature ranking,0.5521,0.355,0.3756
+BERT similarity (frozen),0.3933,0.24,0.2462
+MiniLM similarity,0.4167,0.27,0.2651
+Fine-tuned DistilBERT,0.5571,0.4025,0.3985
+Attention-BiLSTM (from scratch),0.5013,0.3,0.2973
+RAG: dense retrieval + similarity,0.5288,0.425,0.4207
+RAG: TF-IDF+BM25 reranking,0.5725,0.455,0.4561
+RAG + Qwen2.5-3B likelihood,0.7996,0.6975,0.6954
